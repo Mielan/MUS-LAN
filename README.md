@@ -6,15 +6,15 @@ https://www.ambient-mixer.com/
 
 ## 💻 What it does:
 
-## 🔨 How we built it:
+## 🔨 How I built it:
 
-## 🧠 Challenges we ran into:
+## 🧠 Challenges I ran into:
 
-## 🏅 Accomplishments that we're proud of:
+## 🏅 Accomplishments that I'm proud of:
  
-## 📖 What we learned:
+## 📖 What I learned:
 
-## 🚀 What's next for IntARactive Models:
+## 🚀 What's next for Project1:
 
 ## Built With
 
