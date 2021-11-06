@@ -7,7 +7,7 @@ https://preview.p5js.org/xiaolan.huang/present/petRcbHij
 Inspired from game music and ambient sounds, I am interested to explore how the ambient sounds are made. 
 
 ## 💻 What it does:
-With a mixture of synthesized sounds (changed from the laugh and scream tracks) and recorded sounds, I aim to create a crowded fantasy travern environment including lute music, glass sound, dish sound, water pouring suond, crowd noise, and fireplace sound.
+With a mixture of synthesized sounds (changed from the laugh and scream tracks) and recorded sounds, I aim to create a crowded fantasy travern environment including lute music, glass sound, dish sound, water pouring suond, crowd noise (which did not work), and fireplace sound.
 
 ## 🔨 How I built it:
 Experimenting and learning effects in Audacity, I recreate the lute sound from scream recording by first denoise the scream noise. I then extract part of the scream wav, use envelop tool to make the excerpt spindle shaped, and repeated it 22 times. After repeating, I then make it fade out and added reverb to simulate lute string getting quieter and being played in the room. Then, I am able to create octaves by changing pitchs. 
