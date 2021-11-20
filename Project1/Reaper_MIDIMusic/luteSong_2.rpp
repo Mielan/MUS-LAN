@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.40/win64" 1636223305
+<REAPER_PROJECT 0.1 "6.40/win64" 1636250961
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -14,7 +14,7 @@
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 32
+  CURSOR 45
   ZOOM 18.09988511555575 0 0
   VZOOMEX 1 0
   USE_REC_CFG 0
@@ -9262,7 +9262,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     FREEMODE 0
-    SEL 0
+    SEL 1
     REC 0 0 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
@@ -9307,7 +9307,7 @@
     BEAT -1
     AUTOMODE 0
     VOLPAN 0.71255818392288 0 -1 -1 1
-    MUTESOLO 0 2 0
+    MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
     ISBUS 0 0
@@ -9428,19 +9428,13 @@
         E 1200 90 4b 7f
         E 240 90 49 7f
         E 120 80 4b 00
+        E 120 80 49 00
         E 0 90 48 7f
-        E 120 80 49 00
-        E 0 80 48 00
-        E 120 90 49 7f
-        E 120 80 49 00
+        E 360 80 48 00
         E 120 90 4b 7f
         E 120 80 4b 00
-        E 120 90 4b 7f
-        E 120 80 4b 00
-        E 0 90 44 7f
-        E 120 90 4b 7f
-        E 240 80 4b 00
-        E 2160 80 44 00
+        E 120 90 44 7f
+        E 2520 80 44 00
         E 120 90 49 7f
         E 1440 80 49 00
         E 240 90 49 7f
@@ -9698,7 +9692,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 -1 0
     FREEMODE 0
-    SEL 1
+    SEL 0
     REC 0 5088 1 0 0 0 0
     VU 2
     TRACKHEIGHT 0 0 0 0 0 0
