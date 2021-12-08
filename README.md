@@ -1,4 +1,4 @@
-# MUS-170 Project 2 - DRAFT
+# MUS-170 Project FINAL
 
 ## 💡 Inspiration:
 This project is inspired by Final Fantasy music, especially the early pieces when Natsu uses 8-bit to compose sound tracks. The first motif gets inspiration from my project 1, the second motif gets inspiration frmo Final Fantasy battle theme, and the third motif gets inspiration from Pentatonic scale music.
