@@ -1,0 +1,14 @@
+#N canvas 78 102 952 493 16;
+#X obj 141 77 sinusoid;
+#A saved 440;
+#X obj 140 260 record;
+#X text 258 143 The "Hz" control is added to the object's input. The
+sum is the sinusoid's frequency in Hertz (cycles per second)., f 65
+;
+#X text 162 228 Press "record" below to see output:, f 62;
+#X text 258 57 The "reset" button sets the phase to zero (so that the
+oscillator restarts as the beginning of a cycle \, defined to be the
+point at which the output is at its peak \, equal to one.;
+#X text 36 20 sinusoid: generate a sinusoid with peak amplitude one
+;
+#X connect 0 0 1 0;

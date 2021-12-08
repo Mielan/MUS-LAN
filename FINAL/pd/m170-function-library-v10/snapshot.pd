@@ -1,0 +1,15 @@
+#N canvas 678 548 330 301 16;
+#X floatatom 103 123 7 0 0 1 - - -, f 7;
+#X obj 74 34 inlet~;
+#X obj 211 27 loadbang;
+#X msg 211 56 1;
+#X obj 211 85 metro 250;
+#X obj 74 63 snapshot~;
+#X msg 231 148 \; pd dsp 1;
+#X connect 1 0 5 0;
+#X connect 2 0 3 0;
+#X connect 2 0 6 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 0 0;
+#X coords 0 -1 1 1 85 46 1 100 100;

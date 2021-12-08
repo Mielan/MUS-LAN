@@ -1,0 +1,6 @@
+#N canvas 410 279 844 357 16;
+#X obj 142 157 record;
+#X obj 141 77 noise;
+#X text 36 20 noise: generate random numbers from -1 to 1;
+#X text 164 126 Hit "rec" below to see output:;
+#X connect 1 0 0 0;

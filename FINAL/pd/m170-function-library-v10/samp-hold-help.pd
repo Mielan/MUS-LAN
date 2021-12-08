@@ -1,0 +1,24 @@
+#N canvas 276 102 827 478 16;
+#X obj 59 362 output;
+#X obj 55 78 noise;
+#X text 237 15 samp-hold: sample and hold module;
+#X obj 56 255 samp-hold;
+#X obj 142 150 sinusoid;
+#A saved 4;
+#X obj 56 113 multiply;
+#X obj 138 51 constant;
+#A saved 1 1000;
+#X obj 57 288 sinusoid;
+#A saved 0;
+#X text 179 238 "samp-hold" samples the incoming signal on the left
+whenever the one on the right transitions from 0 or negative to a positive
+number. In this example \, each cycle of the oscilator above triggers
+a new value of the noise generator to be sampled and held. This is
+made audible by making it the frequency of the second \, lower oscillator.
+;
+#X connect 1 0 5 0;
+#X connect 3 0 7 0;
+#X connect 4 0 3 1;
+#X connect 5 0 3 0;
+#X connect 6 0 5 1;
+#X connect 7 0 0 0;

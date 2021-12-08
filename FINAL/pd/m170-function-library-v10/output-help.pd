@@ -1,0 +1,8 @@
+#N canvas 409 278 695 304 16;
+#X obj 50 117 output;
+#X obj 51 79 noise;
+#X text 36 20 output: output a signal (with level control in decibels)
+;
+#X text 179 160 try 70 or 80 to hear the signal at a reasonable level
+(range is 0 to 100 in decibels)., f 47;
+#X connect 1 0 0 0;

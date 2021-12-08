@@ -1,0 +1,6 @@
+#N canvas 408 277 694 250 16;
+#X obj 51 79 noise;
+#X obj 50 117 snapshot;
+#X text 36 20 snapshot: show occasional numerical values of an audio
+signal, f 61;
+#X connect 0 0 1 0;

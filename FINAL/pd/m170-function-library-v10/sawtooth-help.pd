@@ -1,0 +1,15 @@
+#N canvas 411 340 873 441 16;
+#X obj 178 233 record;
+#X text 200 201 Press "record" below to see output:, f 62;
+#X obj 37 85 sawtooth;
+#A saved 133.2;
+#X obj 33 203 output;
+#X text 40 21 sawtooth: generate a sawtooth waveform with peak amplitude
+one, f 62;
+#X text 156 111 The "Hz" control is added to the object's input. The
+sum is the waveform's frequency in Hertz (cycles per second)., f 65
+;
+#X text 154 65 The "reset" button sets the phase to zero (so that the
+waveform restarts as the beginning of a cycle).;
+#X connect 2 0 3 1;
+#X connect 2 0 0 0;

@@ -1,0 +1,14 @@
+#N canvas 165 147 854 570 16;
+#X obj 104 224 record;
+#X text 36 19 record: store \, display \, and play back a short duration
+of an audio signal.;
+#X obj 103 123 sinusoid;
+#A saved 440;
+#X obj 103 436 output;
+#X text 222 108 Press the "record" button below to make a recording.
+To hear teh recording \, choose an output level (80 dB might be good)
+and press "play". The toggles next to the record and play buttons put
+the operation on auto-repeat.;
+#X text 246 428 <-- output level;
+#X connect 0 0 3 0;
+#X connect 2 0 0 0;

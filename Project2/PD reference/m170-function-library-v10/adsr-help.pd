@@ -1,0 +1,21 @@
+#N canvas 146 196 1087 636 16;
+#X obj 112 130 sinusoid;
+#A saved 5;
+#X obj 112 215 adsr;
+#A saved 0.04 0.01 50 0.19;
+#X obj 112 372 record;
+#X text 99 34 ADSR: attack-decay-sustain-release envelope;
+#X text 340 77 Generate an attack/decay/sustain/release envelope shape.
+Attack \, decay \, and release times are in seconds \, and the sustain
+level is a percentage.;
+#X text 337 145 The audio input is used as a trigger - when its sign
+changes from negative (or zero) to positive the ADSR outputs an attack
+segment (during which it ramps to one) folllowed by a decay segment
+\, after which it comes to rest at the sustain level \, typically less
+than or equal to one. When the trigger signal drops to zero or a negative
+value \, the ADSR outputs its release segment \, ramping to zero.;
+#X text 338 290 The "curveball" control causes the output to be in
+quadratic segments instead of linear \, often suitable for controlling
+an amplitude because it mimics "sones".;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;

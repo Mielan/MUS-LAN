@@ -1,0 +1,11 @@
+#N canvas 381 179 808 299 16;
+#X obj 57 180 output;
+#X obj 55 79 noise;
+#X obj 56 121 lowpass;
+#A saved 0;
+#X text 36 20 lowpass: low-pass filter;
+#X text 208 118 filters the input \, allowing frequencies below the
+cutoff frequency "freq" (given in Hz.) to pass through but attenuating
+higher ones.;
+#X connect 1 0 2 0;
+#X connect 2 0 0 0;

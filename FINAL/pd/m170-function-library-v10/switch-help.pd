@@ -1,0 +1,12 @@
+#N canvas 408 277 695 304 16;
+#X obj 50 166 output;
+#X obj 51 90 noise;
+#X obj 51 119 switch;
+#A saved 1;
+#X text 181 200 try 60 or 70 to hear the signal at a reasonable level
+(range is 0 to 100 in decibels)., f 47;
+#X text 42 10 switch: switch a signal on and off. This is done simply
+by multiplying the incoming signal by one or zero \, and could be done
+using other objects \, but is provided for convenience.;
+#X connect 1 0 2 0;
+#X connect 2 0 0 0;

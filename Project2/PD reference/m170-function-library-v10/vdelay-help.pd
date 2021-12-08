@@ -1,0 +1,14 @@
+#N canvas 504 152 710 364 16;
+#X obj 106 162 vdelay;
+#A saved 0;
+#X text 36 20 vdelay: variable delay;
+#X obj 81 228 output;
+#X obj 82 115 noise;
+#X text 252 126 delays the incoming signal by a delay time in seconds.
+The delay time entered in the number box is added to the right-hand
+side input to compute the delay time to use. The left-hand input is
+the signal to be delayed. In this example \, white noise is added to
+a delayed copy of itself., f 43;
+#X connect 0 0 2 0;
+#X connect 3 0 0 0;
+#X connect 3 0 2 0;

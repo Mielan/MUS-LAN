@@ -1,0 +1,12 @@
+#N canvas 1 31 808 299 16;
+#X text 36 20 pitchamp: analyze pitch and amplitude of a signal;
+#X obj 58 146 pitchamp;
+#X obj 59 63 sinusoid;
+#A saved 440;
+#X obj 59 204 snapshot;
+#X obj 154 204 snapshot;
+#X text 170 131 reports the measured pitch and amplitude of the incoming
+signal (in Hz. and as RMS \, respectively).;
+#X connect 1 0 3 0;
+#X connect 1 1 4 0;
+#X connect 2 0 1 0;

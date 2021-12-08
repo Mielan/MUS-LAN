@@ -1,0 +1,11 @@
+#N canvas 432 278 933 454 16;
+#X obj 140 245 record;
+#X text 162 213 Choose a length in seconds and hit "rec" below to see
+output:, f 62;
+#X obj 141 77 pulse;
+#A saved 110 330;
+#X text 36 20 pulse: generate a pulse train;
+#X text 249 98 The "Hz" control sets frequency in Hertz (cycles per
+second)., f 61;
+#X text 250 119 The "BW" control sets bandwidth in Hertz.;
+#X connect 2 0 0 0;

@@ -1,0 +1,10 @@
+#N struct line-label float x float y float z symbol label;
+#N canvas 207 53 1034 570 16;
+#X obj 97 61 sinusoid;
+#A saved 3500;
+#X obj 97 139 spectrum;
+#X text 36 19 spectrum: show the power spectrum of an audio signal.
+;
+#X text 257 63 If the scale control is at 100 \, the tip of any sinusoidal
+peak is the RMS amplitude of the sinusoid.;
+#X connect 0 0 1 0;

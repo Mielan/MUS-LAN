@@ -1,0 +1,7 @@
+#N canvas 431 135 695 304 16;
+#X obj 26 74 input;
+#X text 163 118 a gain of "100" corresponds to unity., f 47;
+#X text 36 20 input: input a signal (with level control in decibels)
+;
+#X obj 27 147 meter;
+#X connect 0 0 3 0;

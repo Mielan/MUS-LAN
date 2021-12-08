@@ -1,0 +1,22 @@
+#N canvas 136 91 850 415 16;
+#X obj 55 261 output;
+#X obj 54 154 bandpass;
+#A saved 1000 0;
+#X obj 55 79 noise;
+#X text 237 15 bandpass: band-pass filter;
+#X text 221 238 The "Q" parameter is the sharpness of the filter. The
+bandwidth is "peak"/"Q" \, so for example if "peak" is 1000 and "Q"
+is 10 \, the bandwidth is 100;
+#X text 218 322 Caution: the amplitude of the output increases when
+Q decreases - turn down the output before re-setting Q from 100 to
+0 \, say.;
+#X obj 264 93 constant;
+#A saved 1 0;
+#X text 53 58 signal to filter;
+#X text 220 161 The bandpass object filters its left-hand-side input
+\, allowing frequencies near the "peak" (given in Hz.) to pass through
+but attenuating others.;
+#X text 260 64 second inlet \, added to "peak";
+#X connect 1 0 0 0;
+#X connect 2 0 1 0;
+#X connect 6 0 1 1;

@@ -1,0 +1,20 @@
+#N canvas 302 103 872 500 16;
+#X obj 53 363 output;
+#X text 96 29 threshold: pulse when input signal passes a threshold
+;
+#X obj 54 154 threshold;
+#A saved 0 0;
+#X obj 55 79 sinusoid;
+#A saved 5;
+#X obj 53 329 multiply;
+#X obj 137 242 sinusoid;
+#A saved 880;
+#X text 193 154 outputs a pulse when the input exceeds "value". The
+duration of the pulse is given by "width" in seconds.;
+#X text 187 363 In this example \, the top sinusoid sets the threshold
+object off once per cycle \, turning on the bottom sinusoid by multiplying
+it by a pulse 0.1 second long.;
+#X connect 2 0 4 0;
+#X connect 3 0 2 0;
+#X connect 4 0 0 0;
+#X connect 5 0 4 1;

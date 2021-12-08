@@ -1,0 +1,13 @@
+#N canvas 15 63 680 337 16;
+#X obj 50 242 output;
+#X text 50 19 constant: put out a numerical constant as a signal;
+#X obj 50 93 constant;
+#A saved 1 440;
+#X obj 49 162 sinusoid;
+#X text 247 73 Here \, for example \, you can set the oscllator's frequency
+by sending this constant to its input (useful if you want to control
+several things in tandem \, for example). The three "radio buttons"
+select one of three possible ranges and the button zeros the value.
+, f 41;
+#X connect 2 0 3 0;
+#X connect 3 0 0 0;

@@ -1,0 +1,8 @@
+#N canvas 407 276 599 244 16;
+#X obj 57 63 noise;
+#X text 36 20 meter: VU meter;
+#X obj 56 101 meter;
+#X text 182 108 shows \, graphically and numerically \, the root-mean-square
+(RMS) amplitude of a short duration (about 1/10 sec) of the input \,
+with an RMS amplitude of 1 normalized to 100 dB., f 39;
+#X connect 0 0 2 0;
