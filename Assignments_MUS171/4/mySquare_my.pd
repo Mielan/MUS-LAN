@@ -1,0 +1,33 @@
+#N canvas 1391 157 755 619 12;
+#N canvas 0 50 450 250 (subpatch) 0;
+#X array \$0-wave 100 float 3;
+#A 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0;
+#X coords 0 1 100 -1 200 140 1;
+#X restore 47 126 graph;
+#X obj 385 109 inlet;
+#X obj 365 193 phasor~;
+#X obj 421 137 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X msg 420 162 0;
+#X obj 364 223 *~ 63;
+#X obj 363 256 tabread4~ \$0-wave;
+#X obj 364 289 outlet~;
+#X obj 185 361 float \$1;
+#X obj 71 309 loadbang;
+#X obj 71 364 float \$0;
+#X msg 71 404 \; \$1-wave sinesum 64 1 0 0.33 0 0.2 0 0.14 0 0.11 0
+0.09;
+#X connect 1 0 3 0;
+#X connect 1 0 2 0;
+#X connect 2 0 5 0;
+#X connect 3 0 4 0;
+#X connect 4 0 2 1;
+#X connect 5 0 6 0;
+#X connect 6 0 7 0;
+#X connect 8 0 2 0;
+#X connect 9 0 8 0;
+#X connect 9 0 10 0;
+#X connect 10 0 11 0;
